@@ -1,0 +1,115 @@
+@import url(variable.css);
+@font-face {
+    font-family: Avenir;
+    src: url(/storage/font/fontFirstHead.ttf);
+}
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background: var(--color-primary);
+    margin: 30px;
+
+}
+.body{
+    grid-template-rows: auto auto;
+    text-align: center;
+    height: 1139px;
+    width: 1440px;
+}
+.body.head{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.body.Img{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.head{
+    width: 610px;
+    height: 355px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.head h1{
+    font-size: 64px;
+    color: var(--color-white);
+    font-family: Avenir;
+}
+.head p{
+    font-size: 26px;
+    color: var(--color-black);
+    font-family: Avenir;
+}
+.head button{
+    background: var(--color-button);
+    border: none;
+    color: var(--color-primary);
+    height: 54px;
+    width: 158px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-family: Avenir;
+
+}
+.Img{
+    width: 1372px;
+    height: 592px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 30px;
+}
+#img1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-bottom: 25px;
+}
+#img2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+
+}
+#img3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+#img4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+#img5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#img6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#img7{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#img8{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
