@@ -4,3 +4,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background:var(--color-background) ;
+    width: 1440px;
+    height: 1204px;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: Avenir;
+    src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width:1440px;
+    height: 1204px;
+    margin: 50px;
+}
+#p1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 88px;
+    font-family: Avenir;
+    margin-top: 80px;
+}
+.right{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 526px;
+    height: 174px;
+    margin-top: 80px;
+}
+#p2{
+    font-size: 24px;
+    font-family: Avenir;
+    color: var(--color-p);
+}
+#p3{
+    border: none;
+    color: var(--color-background);
+    background: var(--color-h1);
+    width: 157px;
+    height: 50px;
+    border-radius: 16px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+#p4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
