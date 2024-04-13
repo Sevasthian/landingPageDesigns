@@ -4,3 +4,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Avenir;
+    src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
+.container{
+    width: 1440px;
+    height: 926px;
+    margin: 0 auto;
+}
+.head{
+    font-size: 36px;
+    font-family: Avenir;
+    width: 833px;
+    height: 176px;
+    padding: 25px;
+    float: left;
+    margin: 25px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1356px;
+    height: 559px;
+    margin: 45px;
+    margin-left: 60px;
+}
+.bottom p{
+    width: 316px;
+    height: 133px;
+}
+#number{
+    font-size: 40px;
+    font-family: Avenir;
+    padding-top: 120px;
+    color: var(--color-number);
+}
+#paragraph{
+    font-size: 24px;
+    font-family: Avenir;
+    padding-top: 60px;
+    color:var(--color-paragraph);
+}

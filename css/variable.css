@@ -1,3 +1,5 @@
 :root{
-    --color-prymary:#ff0000;
+    --color-number:rgb(179, 178, 178);
+    --color-paragraph:rgb(81, 81, 81);
+    --color-background:rgb(254, 255, 254);
 }
