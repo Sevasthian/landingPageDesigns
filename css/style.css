@@ -4,3 +4,68 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Avenir;
+    src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
+.container{
+    display: grid;
+    grid-template-rows: auto auto;
+    margin: 0 auto ;
+    width: 1440px;
+    height: 954px;
+}
+.head{
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    font-size: 38px;
+    width: 531px;
+    height: 208px;
+    font-family: Avenir;
+    padding-top: 100px;
+    color: var(--color-title);
+    line-height: 104px;
+}
+.bottom{
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+.first{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 400px;
+    height: 549px;
+}
+.second{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 400px;
+    height: 549px;
+}
+.third{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 400px;
+    height: 549px;
+}
+#p1,#p3,#p5{
+    font-size: 32px;
+    font-family: Avenir;
+    color:var(--color-number);
+    margin-bottom: 25px;
+}
+#p2,#p4,#p6{
+    font-size: 24px;
+    font-family: Avenir;
+    color:var(--color-paragraph);
+    margin-bottom: 25px;
+}
