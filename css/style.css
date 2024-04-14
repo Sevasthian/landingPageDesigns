@@ -4,3 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/storage/font/Poppins/Poppins-Bold.ttf);
+}
