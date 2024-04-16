@@ -1,5 +1,9 @@
 :root{
-    --color-prymary:#ff0000;
+    --color-background:rgb(47, 47, 47);
+    --color-line-one:#FEC3C7;
+    --color-line-two:#9AD7F3;
+    --color-line-three:#6BDFDA;
+    --color-paragraph:#FFFFFF
 }
 @font-face {
     font-family: Blod;
