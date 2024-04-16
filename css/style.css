@@ -4,7 +4,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: Poppins-Bold;
-    src: url(/storage/font/Poppins/Poppins-Bold.ttf);
+.container{
+    width: 1440px;
+    height: 926px;
+}
+body{
+    background: var(--color-background);
+}
+.background{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.head .bottom{
+    position: absolute;
+    bottom: 150px;
+}
+#img1{
+    align-items: end;
 }

@@ -4,3 +4,7 @@
     --color-white: rgb(239, 239, 238);
 
 }
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/storage/font/Poppins/Poppins-Bold.ttf);
+}
