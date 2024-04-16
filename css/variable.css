@@ -1,3 +1,13 @@
 :root{
-    --color-prymary:#ff0000;
+    --color-black:rgb(37, 37, 37);
+    --color-grey:rgb(211, 211, 211);
+    --color-backgroud:rgb(255, 255, 255);
+}
+@font-face {
+    font-family: Roman;
+    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: Book;
+    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Book.otf);
 }

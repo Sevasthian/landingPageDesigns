@@ -4,3 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1440px;
+    height: 1040px;
+}
+.bottom{
+    grid-area: 2/1/span 1/span 2;
+    background: var(--color-black);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 24px;
+}
