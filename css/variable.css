@@ -1,7 +1,7 @@
 :root{
     --color-black:rgb(37, 37, 37);
     --color-grey:rgb(211, 211, 211);
-    --color-backgroud:rgb(255, 255, 255);
+    --color-background:rgb(255, 255, 255);
 }
 @font-face {
     font-family: Roman;

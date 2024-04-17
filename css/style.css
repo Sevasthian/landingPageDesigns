@@ -9,6 +9,7 @@
     grid-template-columns: auto auto;
     width: 1440px;
     height: 1040px;
+    margin: 0 auto;
 }
 .bottom{
     grid-area: 2/1/span 1/span 2;
@@ -16,5 +17,54 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto;
-    row-gap: 24px;
+    align-items: center;
+    padding: 64px;
+    column-gap: 118px;
+    border-radius: 40px;
+    margin-bottom: 64px;
+}
+.left{
+    margin: 0 auto;
+    width: 637px;
+    height: 414px;
+    padding-top: 120px;
+}
+.left h1{
+    font-size: 72px;
+    font-family: Book;
+    width: 567px;
+    margin-bottom: 32px;
+}
+.left p{
+    font-size: 26px;
+    font-family: Roman;
+    width: 567px;
+    margin-bottom: 32px;
+    line-height: 40px;
+}
+.left button{
+    font-size: 24px;
+    font-family: Roman;
+    border: none;
+    width: 182px;
+    height: 66px;
+    border-radius: 36px;
+    background: var(--color-black);
+    color: var(--color-background);
+}
+.bottom p{
+    width: 316px;
+    font-size: 24px;
+    font-family: Roman;
+    color: var(--color-grey);
+}
+.bottom h2{
+    width: 316px;
+    font-size: 32px;
+    font-family: Book;
+    color: var(--color-grey);
+}
+.right{
+    margin: 0 auto;
+    padding-top: 60px;
 }
