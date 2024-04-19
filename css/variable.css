@@ -1,3 +1,15 @@
 :root{
     --color-prymary:#ff0000;
 }
+@font-face {
+    font-family: Times Regular;
+    src: url(../storage/font/typography_times/Typography\ Times\ Regular.ttf);
+}
+@font-face {
+    font-family: Times Bold;
+    src: url(../storage/font/typography_times/Typography\ Times\ Bold.ttf);
+}
+@font-face {
+    font-family: Poppins Regular;
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
