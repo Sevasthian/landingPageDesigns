@@ -1,5 +1,8 @@
 :root{
-    --color-prymary:#ff0000;
+    --color-blackOne:rgb(37, 37, 37);
+    --color-blackTwo: #333333;
+    --color-grey:rgb(157, 157, 157);
+    --color-white:white;
 }
 @font-face {
     font-family: Times Regular;
