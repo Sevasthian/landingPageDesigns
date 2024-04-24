@@ -4,18 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: WorkSans-Bold;
-    src: url(/storage/font/WorkSans-Bold.ttf);
-}
-@font-face {
-    font-family: WorkSans-Light;
-    src: url(/storage/font/WorkSans-Light.ttf);
-}
-@font-face {
-    font-family: WorkSans-Medium;
-    src: url(/storage/font/WorkSans-Medium.ttf);
-}
+
 body{
     background: var(--color-background);
 }
@@ -24,7 +13,7 @@ body{
     height: 926px;
     display: grid;
     grid-template-columns: auto auto;
-    text-align: center;
+    
     margin: 0 auto;
 }
 .img{
