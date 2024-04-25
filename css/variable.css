@@ -1,3 +1,14 @@
 :root{
-    --color-prymary:#ff0000;
+    --color-green:rgb(69, 125, 97);
+    --color-title:rgb(37, 37, 37);
+    --color-span:rgb(77, 77, 77);
+    --color-button:white;
+}
+@font-face {
+    font-family: Regular;
+    src: url(../storage/font/typography_times/Typography\ Times\ Regular.ttf);
+}
+@font-face {
+    font-family: Poppins Regular;
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
 }
