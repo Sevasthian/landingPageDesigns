@@ -1,3 +1,17 @@
 :root{
-    --color-prymary:#ff0000;
+    --color-title:#252525;
+    --color-button:#FFFFFF;
+    --color-paragraph:#4e4e4e;
+}
+@font-face {
+    font-family: Heavy;
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Book.otf);
+}
+@font-face {
+    font-family: Roman;
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
 }
