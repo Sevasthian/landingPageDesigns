@@ -2,9 +2,18 @@
     --color-title: rgb(55, 57, 48);
     --color-background: rgb(193, 198, 201);
     --color-white: rgb(239, 239, 238);
+    --color-white-blurred: rgba(211, 215, 218, 0.726);
 
 }
 @font-face {
-    font-family: Poppins-Bold;
+    font-family: Bold;
     src: url(/storage/font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(/storage/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: SemiBold;
+    src: url(/storage/font/Poppins/Poppins-SemiBold.ttf);
 }
