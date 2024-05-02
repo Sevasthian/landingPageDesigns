@@ -61,7 +61,8 @@ body{
     transform: translate(50%, 100%);
     display: grid;
     padding-left: 90px;
-    
+    padding-top: 30px;
+    padding-bottom: 30px;
     grid-template-columns: repeat(3, 1fr);
     width: 948px;
     height: 272px;
